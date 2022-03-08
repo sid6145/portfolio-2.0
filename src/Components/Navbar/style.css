@@ -14,13 +14,20 @@
     flex: 1;
 }
 
-@media  screen and (max-width: 560px) {
+@media  screen and (max-width: 770px) {
     .mobile_nav{
         height: 100vh;
-        width: 100%;
-        background-color: red;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        background-color: rgb(142, 201, 241);
+        color: white;
         transition: 0.3s ease;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        opacity: 0.5;
     }
 
     .hideMobileNav{
