@@ -4,10 +4,12 @@
 .nav_container{
     box-shadow: none !important;
     overflow: hidden !important;
+    
 }
 
 .navbar{
     background-color:#42C2FF;
+    height: 100px;
 }
 
 .navbar .logo_text{

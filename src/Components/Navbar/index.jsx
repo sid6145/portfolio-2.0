@@ -15,9 +15,10 @@ const Navbar = () => {
           </Typography>
 
           <span className="d-none d-md-flex">
-            <Typography className="me-md-4 me-2">Projects</Typography>
-            <Typography className="me-md-4 me-2">Contact</Typography>
-            <Typography className="me-md-4 me-2">About</Typography>
+            <a href="#" className="me-md-4 me-2">Projects</a>
+            <a href="#" className="me-md-4 me-2">Skills</a>
+            <a href="#" className="me-md-4 me-2">Contact</a>
+            <a href="#" className="me-md-4 me-2">About</a>
           </span>
 
           <IconButton onClick={() => setMobileNavOpen(!mobileNavOpen)} className="d-block d-md-none"><MenuOpen /></IconButton>
@@ -25,9 +26,10 @@ const Navbar = () => {
       </AppBar>
 
       <div className={`mobile_nav ${mobileNavOpen ? 'showMobileNav' : 'hideMobileNav'} d-md-none`}>
-        <Typography className="py-4 my-3">Projects</Typography>
-        <Typography className="py-4 my-3">Contact</Typography>
-        <Typography className="py-4 my-3 ">About</Typography>
+        <a href="#" className="py-4 my-3">Projects</a>
+        <a href="#" className="py-4 my-3">Skills</a>
+        <a href="#" className="py-4 my-3">Contact</a>
+        <a href="#" className="py-4 my-3 ">About</a>
       </div>
     </>
   );
