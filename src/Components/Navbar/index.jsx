@@ -14,7 +14,7 @@ const Navbar = () => {
             Siddhant
           </Typography>
 
-          <span className="d-none d-md-flex">
+          <span className={`d-none d-md-flex ${'nav_items'}`}>
             <a href="#" className="me-md-4 me-2">Projects</a>
             <a href="#" className="me-md-4 me-2">Skills</a>
             <a href="#" className="me-md-4 me-2">Contact</a>

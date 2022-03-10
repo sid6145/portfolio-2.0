@@ -16,6 +16,20 @@
     flex: 1;
 }
 
+.nav_items a{
+    text-decoration: none;
+    color: white;
+    padding:10px 30px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav_items a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 254, 254);
+   
+}
+
 @media  screen and (max-width: 770px) {
     .mobile_nav{
         height: 100vh;
