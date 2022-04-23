@@ -1,0 +1,37 @@
+.skill_card_root{
+    max-width: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.icon_container{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.icon_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.icon_container:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.title_container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
